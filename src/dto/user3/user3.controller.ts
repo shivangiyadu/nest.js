@@ -19,7 +19,7 @@ export class user3Controller
   @Get("/:id")
   getid(@Param("id") id:any)  {
     console.log(id);
-    return id
+    return id;
   }
 
 @Patch(":id")
