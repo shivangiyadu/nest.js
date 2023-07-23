@@ -15,20 +15,15 @@ export class user4Controller {
      @Get("/:bookid")
        user4name(@Param("bookid")bookid:number){
         return `this is the number ${bookid}`;
+       }
       
     @Put("/:bookid")
     update_resource(@Param("bookid") bookid :number){
-    {
         return `this will update ${bookid}`;
-    }
-
-
-
 
     }
 }
 
-    function update_resource(arg0: any, authorname: any, string: any, arg3: any, newresource: any, string1: any) {
-        throw new Error("Function not implemented.");
-    }
+    
+    
 
